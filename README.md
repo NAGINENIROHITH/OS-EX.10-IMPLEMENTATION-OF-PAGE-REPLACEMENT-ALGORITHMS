@@ -5,13 +5,21 @@ To write a C program to implement Page Replacement technique using FIFO
 
 # ALGORITHM:
 Start the program.
+
 Get the number of pages and their sequence from the user
+
 Get the number of available page frames from the user.
+
 In FIFO, on the basics of first in first out, replace the pages respectively, then find number of page faults occurred.
-Compare all frames with incoming page�6. If the incoming page is already available in page frame, set the match flag to indicate ‘no need of page replacement’.
+
+Compare all frames with incoming page6. If the incoming page is already available in page frame, set the match flag to indicate ‘no need of page replacement’.
+
 If the incoming page is not available in all frames, then remove the page which is loaded into the memory long back and give space for new incoming page.
+
 Increment the ‘number of Page faults counter
+
 Print the number of page faults.
+
 Stop the program.
 
 # PROGRAM:
@@ -65,14 +73,23 @@ Thus the implementation of FIFO page replacement is successfully executed.
 To write a C program to implement Page Replacement technique using LRU
 
 # ALGORITHM:
+
 Start the program
+
 Get the number of pages and their sequence from theuser
+
 Get the number of available page frames from theuser.
+
 In LRU replace the page that has not been used for the longest period oftime.
+
 Compare all frames with incoming page�6. If the incoming page is already available in page frame, set the match flag to indicate ‘no need of page replacement’.
+
 If the incoming page is not available in all frames, then remove the page which has not been used for the longest period oftime.
+
 Increment the ‘number of Page faults’ counter
+
 Print the number of page faults.
+
 Stop the program.
 
 # PROGRAM:
@@ -164,12 +181,17 @@ To write a C program to implement Page Replacement technique using OPR
 
 # ALGORITHM:
 Start the program.
+
 Take the input of pages as an array.
-Look for the page allocated is present in near future, if no then replace that page in the memory with new page,
-If page already present increment hit, else increment miss.
+
+Look for the page allocated is present in near future, if no then replace that page in the memory with new page,If page already present increment hit, else increment miss.
+
 Repeat till we reach the last element of the array.
+
 Print the number of hits and misses.
+
 Stop the program.
+
 # PROGRAM:
 ```
 #include<stdio.h>
